@@ -1,0 +1,132 @@
+.squarewrapcont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: blue;
+}
+.joinnewlifewrap {
+  width: 40%;
+  height: 100%;
+  padding: 10px;
+  background-color: white;
+}
+.squarewrap {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  padding: 2%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: white;
+}
+.squarewrap p {
+  width: 75%;
+}
+.squarewrap span {
+  font-size: 15px;
+}
+.squarewrap:hover {
+  background-color: #8e8e8e;
+}
+.square {
+  width: 20%;
+  height: 50%;
+  background-color: yellow;
+}
+.square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.newlifeinvite {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  padding-top: 10%;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: white;
+}
+.newlifeivhold {
+  width: 95%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://plus.unsplash.com/premium_photo-1675107360191-5b87521acc1b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGluayUyMGZsb3dlcnN8ZW58MHx8MHx8fDA%3D");
+  /* background-color: gray; */
+  background-size: contain;
+}
+.joinhand {
+  width: 80%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  /* background-color: palegoldenrod; */
+}
+.joinhand h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.joinbutt {
+  width: 80%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: magenta; */
+}
+.joinbutt button {
+  width: 30%;
+  height: 50%;
+  color: white;
+  border: 2px solid white;
+}
+.joinbutt button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (width < 760px) {
+  .squarewrapcont {
+    flex-direction: column;
+  }
+  .joinnewlifewrap {
+    width: 100%;
+    height: max-content;
+  }
+  .squarewrap {
+    height: 120px;
+  }
+  .newlifeinvite {
+    width: 100%;
+    height: max-content;
+  }
+  .newlifeivhold {
+    width: 100%;
+    height: 350px;
+  }
+  .joinbutt {
+    height: 150px;
+    flex-direction: column;
+  }
+  .joinbutt button {
+    height: 40%;
+  }
+  .joinhand {
+    height: max-content;
+  }
+}
+
+@media screen and (width < 400px) {
+  .joinbutt button {
+    width: 80%;
+  }
+}
