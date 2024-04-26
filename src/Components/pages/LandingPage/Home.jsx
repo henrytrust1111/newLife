@@ -1,10 +1,10 @@
 import React from "react";
-import Hero from "./hero";
+import Heropage from "./Heropage";
 
 const Home = () => {
   return (
     <>
-      <Hero />
+      <Heropage />
     </>
   );
 };
