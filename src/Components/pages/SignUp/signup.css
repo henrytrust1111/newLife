@@ -1,0 +1,302 @@
+.signupwrap {
+  width: 100%;
+  height: 100%;
+  padding-top: 1%;
+  display: flex;
+  /* overflow: scroll; */
+  /* flex-direction: column; */
+  /* gap: 3%; */
+  justify-content: center;
+  /* align-items: center; */
+  background-color: white;
+}
+.signuphold {
+  width: 80%;
+  height: 100%;
+}
+.ios {
+  width: 100%;
+  height: 15%;
+  background-color: white;
+}
+
+.ioswrap {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 10px;
+  /* background-color: blue; */
+}
+.iosicon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 7px;
+  font-size: 30px;
+  justify-content: center;
+  background-color: black;
+}
+.big {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  overflow: scroll;
+  /* background-color: darkblue; */
+}
+.namehold {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  background-color: gray;
+}
+.leftname {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+}
+.nameinput {
+  width: 95%;
+  height: 50%;
+  border: 1px solid silver;
+  outline: none;
+  padding-left: 2%;
+}
+.rightname {
+  width: 50%;
+  height: 100%;
+  background-color: yellow;
+}
+.otherrequirement {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  /* background-color: gray; */
+}
+.require {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: yellow; */
+}
+.require p {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.683);
+}
+.confirm {
+  width: 40%;
+  height: 75%;
+  display: flex;
+  gap: 7%;
+  align-items: flex-start;
+  /* background-color: green; */
+}
+.confirm p {
+  padding: 0px;
+  margin: 0px;
+}
+.region {
+  width: 100%;
+  height: 20%;
+  margin-top: 3%;
+  display: flex;
+  /* background-color: yellow; */
+}
+.languagehold {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* align-items: center; */
+  /* background-color: hotpink; */
+}
+#language {
+  width: 95%;
+  height: 50%;
+  outline: none;
+  border: 1px solid silver;
+}
+.faithhold {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: gray; */
+}
+.faith {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: gray; */
+}
+.faithans {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  /* background-color: gray; */
+}
+.faithans div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* justify-content: space-around; */
+}
+.engagewrap {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-bottom: 4%; */
+  /* background-color: gray; */
+}
+.consider {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: yellow; */
+}
+#denom {
+  width: 48%;
+  height: 65%;
+  border: 1px solid silver;
+  outline: none;
+}
+.promise {
+  width: 100%;
+  height: 50%;
+  /* background-color: gray; */
+}
+.oath {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.oathoption {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blue; */
+}
+.oathoption div {
+  width: 16.3%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* background-color: red; */
+}
+.registerbutton {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
+}
+.registerbutton button {
+  width: 17%;
+  height: 60%;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+}
+.registerbutton button:hover {
+  background-color: rgba(0, 0, 0, 0.843);
+}
+
+@media screen and (width < 770px) {
+  .signuphold {
+    width: 98%;
+  }
+  .ioswrap {
+    width: 20%;
+  }
+  .namehold {
+    flex-direction: column;
+    height: max-content;
+  }
+  .leftname {
+    width: 100%;
+    height: 130px;
+  }
+  .otherrequirement {
+    flex-direction: column;
+    height: max-content;
+  }
+  .require {
+    width: 100%;
+    height: 130px;
+  }
+  .region {
+    flex-direction: column;
+    height: max-content;
+  }
+  .languagehold {
+    width: 100%;
+    height: 130px;
+  }
+  .faithhold {
+    height: max-content;
+  }
+  .faith {
+    width: 100%;
+    height: 130px;
+  }
+  .engagewrap {
+    height: max-content;
+  }
+  .consider {
+    width: 100%;
+    height: 80px;
+  }
+  .promise {
+    height: max-content;
+  }
+  .oath {
+    width: 100%;
+    height: 50px;
+  }
+  .oathoption {
+    height: max-content;
+    flex-direction: column;
+  }
+  .oathoption div {
+    width: 100%;
+    height: 30px;
+  }
+  .registerbutton {
+    width: 100%;
+    padding: 20px;
+    height: max-content;
+  }
+  .registerbutton button {
+    width: 50%;
+    height: 60px;
+  }
+}
