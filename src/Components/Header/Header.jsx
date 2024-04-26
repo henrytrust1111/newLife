@@ -23,7 +23,7 @@ const Header = () => {
             <div className="w-[50%] flex items-center ">
               <div className="hidden max-[700px]:w-8 max-[700px]:h-8 max-[700px]:flex max-[700px]:items-center ">
                 <img
-                  src="/src/assets/icons/menu.png"
+                  src="/icons/menu.png"
                   alt=""
                   onClick={() => setShow(!show)}
                 />
