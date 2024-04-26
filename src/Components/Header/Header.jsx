@@ -1,7 +1,9 @@
 import React from "react";
 import HeaderMenu from "../container/HeaderMenu";
+import { useState } from "react";
 
 const Header = () => {
+  const [show, setShow] = useState(false);
   return (
     <>
       <div className="w-full h-max flex flex-col items-center justify-center bg-[#26211d]">
@@ -20,7 +22,11 @@ const Header = () => {
           <div className="w-[90%] h-[10vh] flex justify-between ">
             <div className="w-[50%] flex items-center ">
               <div className="hidden max-[700px]:w-8 max-[700px]:h-8 max-[700px]:flex max-[700px]:items-center ">
-                <img src="/src/assets/icons/menu.png" alt="" />
+                <img
+                  src="/src/assets/icons/menu.png"
+                  alt=""
+                  onClick={() => setShow(!show)}
+                />
               </div>
               <ul className="w-full flex justify-between items-center text-l font-semibold cursor-pointer text-[#26211D] uppercase max-[700px]:hidden">
                 <li>Explore Faith</li>
@@ -39,7 +45,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <HeaderMenu />
+      {show && <HeaderMenu />}
     </>
   );
 };
