@@ -1,13 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        hero: "url('https://www.theemon.com/c/charity/LivePreview/assets/img/slide-banner-01.jpg')",
+      },
+    },
   },
   plugins: [],
-}
-
+};
