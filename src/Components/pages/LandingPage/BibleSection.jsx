@@ -9,7 +9,10 @@ const BibleSection = () => {
       <div className="w-[90%] h-[95vh] border-4 flex max-[700px]:flex-col-reverse max-[700px]:h-max">
         <div className="w-[30%] h-full flex flex-col overflow-y-auto bg-[#efefef]  ">
           <div className="min-h-[70px] w-full border-b-2 border-[#d1cfcf] flex justify-center ">
-            <div className="w-[90%] flex items-center justify-between cursor-pointer" onClick={()=>setShow(!show)}>
+            <div
+              className="w-[90%] flex items-center justify-between cursor-pointer"
+              onClick={() => setShow(!show)}
+            >
               <div className="uppercase text-xl">SEARCH KEY WORDS/PHRASE</div>
               <div className="text-3xl">
                 <RxCaretDown />
@@ -34,14 +37,14 @@ const BibleSection = () => {
               </div>
             )}
             <div className="w-full flex justify-center border-b-2 border-[#d1cfcf]">
-            <div className="w-[90%] min-h-[70px] flex items-center justify-between ">
-              <div className="uppercase text-xl text-[#3d3b3b] ">options</div>
-              <div className="text-3xl text-[#3d3b3b] font-light">
-                <SlOptionsVertical className="" />
+              <div className="w-[90%] min-h-[70px] flex items-center justify-between ">
+                <div className="uppercase text-xl text-[#3d3b3b] ">options</div>
+                <div className="text-3xl text-[#3d3b3b] font-light">
+                  <SlOptionsVertical className="" />
+                </div>
               </div>
             </div>
-            </div>
-            <div className="">Hello</div>
+            <div className="">John</div>
             <div className="">Hello</div>
             <div className="">Hello</div>
           </div>
