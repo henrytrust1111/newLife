@@ -27,7 +27,6 @@ const Header = () => {
                 <li>Read the Bible</li>
                 <li>Find a Church</li>
                 <li>Request a Prayer</li>
-                <li></li>
               </ul>
             </div>
 
