@@ -18,11 +18,28 @@
   /* backdrop-filter: blur(7px); */
   /* top: -33px; */
 }
+
+.signUpContainer1 {
+  overflow: scroll;
+  scrollbar-width: thin; 
+  scrollbar-color: transparent transparent; 
+  -ms-overflow-style: none; 
+}
+.signUpContainer1::-webkit-scrollbar {
+  width: 6px;
+}
+.signUpContainer1::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+.signUpContainer1::-webkit-scrollbar-track {
+  background-color: transparent;
+}
 .signupwrap {
   width: 70%;
-  height: max-content;
+  height: 1000px;
   padding-top: 1%;
   display: flex;
+  margin-top: 500px;
   /* overflow: scroll; */
   /* flex-direction: column; */
   /* gap: 3%; */
