@@ -3,7 +3,8 @@ import { FaApple } from "react-icons/fa";
 
 const Register = () => {
   return (
-    <div className="signupwrap">
+    <div className="signUpContainer1">
+      <div className="signupwrap">
       <div className="signuphold">
         <div className="ios">
           <div className="ioswrap">
@@ -156,6 +157,7 @@ const Register = () => {
           <button>JOIN NEWLIFE</button>
         </div>
       </div>
+    </div>
     </div>
   );
 };
