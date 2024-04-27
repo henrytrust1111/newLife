@@ -5,6 +5,7 @@ const ChurchFind = () => {
         <div className="churchfindwrap">
             <div className="churchpic">
                 <h1>We'd love to see you this sunday</h1>
+                <i>Join a community of belivers to grow in your faith</i>
             </div>
             <div className="explain">
                 <div className="explainhold">
@@ -44,6 +45,55 @@ const ChurchFind = () => {
                         </div>
                         <div className="inputsearch">
                             <button>SEARCH</button>
+                        </div>
+                    </div>
+                    <div className="searchfunctionbody">
+                        <div className="churcharound">
+                            <div className="churchaddress">
+                                <div className="address">
+                                    <p className='bold'>Guelph Church of Christ</p>
+                                    <span>45 Home st Guelph, Ontario N1H2E4</span>
+                                </div>
+                                <div className="service">
+                                    <span>SERVICE TIMES</span>
+                                    <p className='bold'>10:30am</p>
+                                </div>
+                            </div>
+                            <div className="churchaddress">
+                                <div className="address">
+                                    <p className='bold'>Guelph Church of Christ</p>
+                                    <span>45 Home st Guelph, Ontario N1H2E4</span>
+                                </div>
+                                <div className="service">
+                                    <span>SERVICE TIMES</span>
+                                    <p className='bold'>10:30am</p>
+                                </div>
+                            </div>
+                            <div className="churchaddress">
+                                <div className="address">
+                                    <p className='bold'>Guelph Church of Christ</p>
+                                    <span>45 Home st Guelph, Ontario N1H2E4</span>
+                                </div>
+                                <div className="service">
+                                    <span>SERVICE TIMES</span>
+                                    <p className='bold'>10:30am</p>
+                                </div>
+                            </div>
+                            <div className="churchaddress">
+                                <div className="address">
+                                    <p className='bold'>Guelph Church of Christ</p>
+                                    <span>45 Home st Guelph, Ontario N1H2E4</span>
+                                </div>
+                                <div className="service">
+                                    <span>SERVICE TIMES</span>
+                                    <p className='bold'>10:30am</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="churchmap">
+                            <div className="mapitself">
+                                <img src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1hcHxlbnwwfHwwfHx8MA%3D%3D" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
