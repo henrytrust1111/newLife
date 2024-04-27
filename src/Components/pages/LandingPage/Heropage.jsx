@@ -6,7 +6,7 @@ const Heropage = () => {
 
   return (
     <>
-      <Register />
+      {/* <Register /> */}
       <div className="w-full h-[80vh] bg-hero bg-center flex items-center justify-center max-[700px]:h-[50vh] relative">
         <div className="w-[90%] ">
           <div className="flex flex-col items-center space-y-4  w-[30%] max-[700px]:w-full">

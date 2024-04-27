@@ -14,17 +14,38 @@
   z-index: 33;
   background-color: white;
 }
+
+.signUpContainer1 {
+  overflow: scroll;
+  scrollbar-width: thin; 
+  scrollbar-color: transparent transparent; 
+  -ms-overflow-style: none; 
+}
+.signUpContainer1::-webkit-scrollbar {
+  width: 6px;
+}
+.signUpContainer1::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+.signUpContainer1::-webkit-scrollbar-track {
+  background-color: transparent;
+}
 .signupwrap {
   width: 80%;
-  height: 700px;
+  height: 800px;
   padding-top: 1%;
   display: flex;
   flex-direction: column;
+  /* width: 70%;
+  height: 1000px;
+  padding-top: 1%;
+  display: flex;
+  margin-top: 500px; */
   /* overflow: scroll; */
   /* flex-direction: column; */
   /* gap: 3%; */
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   background-color: white;
   
 }
@@ -34,7 +55,7 @@
 }
 .closecont{
   width: 100%;
-  height: 100px;
+  height: 150px;
   background-color: yellow;
 }
 .ios {
