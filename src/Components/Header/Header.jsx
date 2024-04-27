@@ -40,7 +40,7 @@ const Header = () => {
             <div className="w-[50%] flex justify-end items-center space-x-1">
               <div className="">UserName</div>
               <div className="w-[35px] h-[35px] flex items-center justify-center rounded-full ">
-              <CgProfile className="text-2xl" />
+                <CgProfile className="text-2xl" />
               </div>
             </div>
           </div>

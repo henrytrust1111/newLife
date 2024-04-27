@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Register from "../SignUp/Register";
+import LOGIN from "../Login/Login";
 
 const Heropage = () => {
+  const [show, setShow] = useState(false);
+  const [show1, setShow1] = useState(false);
   return (
     <>
-      <Register />
+      {show && <Register setShow={setShow} setShow1={setShow1} />}
+      {show1 && <LOGIN setShow={setShow} setShow1={setShow1} />}
       <div className="w-full h-[80vh] bg-hero bg-center flex items-center justify-center max-[700px]:h-[50vh] relative">
         <div className="w-[90%] ">
           <div className="flex flex-col items-center space-y-4  w-[30%] max-[700px]:w-full">
@@ -22,7 +26,10 @@ const Heropage = () => {
               <div className="w-[35px] h-[35px] rounded-full bg-black"></div>
               <div className="w-[35px] h-[35px] rounded-full bg-black"></div>
             </div> */}
-            <div className="border border-black py-3 px-3 rounded font-semibold text-xl uppercase cursor-pointer">
+            <div
+              className="border border-black py-3 px-3 rounded font-semibold text-xl uppercase cursor-pointer"
+              onClick={() => setShow(true)}
+            >
               Join Now
             </div>
           </div>
