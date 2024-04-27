@@ -12,7 +12,7 @@ const Heropage = () => {
       <div className="w-full h-[80vh] bg-hero bg-center flex items-center justify-center max-[700px]:h-[50vh] relative">
         <div className="w-[90%] ">
           <div className="flex flex-col items-center space-y-4  w-[30%] max-[700px]:w-full">
-            <p className=" font-[pattaya] text-center text-5xl font-light max-[700px]:text-white max-[700px]:text-2xl">
+            <p className=" font-[Pacifico] text-center text-5xl font-light max-[700px]:text-white max-[700px]:text-2xl">
               Daily Inspiration
             </p>
             <p className="text-center text-xl max-[700px]:text-white">
