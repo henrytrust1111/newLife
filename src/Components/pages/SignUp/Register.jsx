@@ -5,6 +5,7 @@ const Register = () => {
   return (
     <div className="signUpContainer1">
       <div className="signupwrap">
+        <div className="closecont"></div>
       <div className="signuphold">
         <div className="ios">
           <div className="ioswrap">

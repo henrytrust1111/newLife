@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Register from "../SignUp/Register";
 
 const Heropage = () => {
+  const [joinnow, setJoinNow] = useState(false)
+
   return (
     <>
       <Register />
@@ -22,7 +24,7 @@ const Heropage = () => {
               <div className="w-[35px] h-[35px] rounded-full bg-black"></div>
               <div className="w-[35px] h-[35px] rounded-full bg-black"></div>
             </div> */}
-            <div className="border border-black py-3 px-3 rounded font-semibold text-xl uppercase cursor-pointer ">
+            <div onClick={()=> setJoinNow(true)} className="border border-black py-3 px-3 rounded font-semibold text-xl uppercase cursor-pointer ">
               Join Now
             </div>
           </div>
