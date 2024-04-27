@@ -11,6 +11,88 @@
     justify-content: center;
     background-color: gray;
 }
-/* .explain{
+.explain{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    background-color: white;
+}
+.explainhold{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: whitesmoke; */
+}
+.explainfollow{
+    font-size: 20px;
+}
+.locate{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.locatewrap{
+    width: 70%;
+    height: 100%;
+    background-color: wheat;
+}
+.locateinputwrap{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+}
+.inputlocate{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: rgb(101, 96, 96); */
+}
+.location{
+    width: 97%;
+    height: 60%;
+    border: 1px solid silver;
+    outline: none;
+    padding-left: 2%;
+}
+.inputradius{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+#radius{
+    width: 97%;
+    height: 60%;
+    border: 1px solid silver;
+    outline: none;
+}
+.inputsearch{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: last baseline;
+    /* background-color: green; */
+}
+.inputsearch button{
+    width: 100%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.862);
+    color: white;
+    border: none;
+}
+.inputsearch button:hover{
+    background-color: black;
+}
 
-} *
