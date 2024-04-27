@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderMenu from "../container/HeaderMenu";
 import { useState } from "react";
+import { CgProfile } from "react-icons/cg";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -10,10 +11,10 @@ const Header = () => {
         <div className="w-[90%] h-[13vh] flex items-center justify-between text-white">
           <div className="text-2xl font-bold">NewLife</div>
           <div className="flex space-x-4">
-            <div className="flex justify-center border w-[85px] h-[35px] items-center rounded">
+            <div className="flex justify-center border w-[85px] h-[35px] items-center rounded cursor-pointer">
               Sign
             </div>
-            <div className="border flex justify-center w-[85px] h-[35px] items-center rounded ">
+            <div className="border flex justify-center w-[85px] h-[35px] items-center rounded cursor-pointer ">
               SignUp
             </div>
           </div>
@@ -36,10 +37,10 @@ const Header = () => {
               </ul>
             </div>
 
-            <div className="w-[50%] flex justify-end items-center space-x-4">
+            <div className="w-[50%] flex justify-end items-center space-x-1">
               <div className="">UserName</div>
-              <div className="w-[35px] h-[35px] bg-black rounded-full ">
-                rdd
+              <div className="w-[35px] h-[35px] flex items-center justify-center rounded-full ">
+              <CgProfile className="text-2xl" />
               </div>
             </div>
           </div>

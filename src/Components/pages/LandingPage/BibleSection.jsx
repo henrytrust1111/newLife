@@ -5,7 +5,7 @@ import {
   PiCaretLeftLight,
   PiCaretRightThin,
 } from "react-icons/pi";
-import { RxCaretDown } from "react-icons/rx";
+import { RxCaretDown, RxCaretUp } from "react-icons/rx";
 import { SlOptionsVertical } from "react-icons/sl";
 import { TfiSearch } from "react-icons/tfi";
 const BibleSection = () => {
@@ -26,9 +26,11 @@ const BibleSection = () => {
               className="w-[90%] flex items-center justify-between cursor-pointer"
               onClick={() => setShow(!show)}
             >
-              <div className="uppercase text-xl max-[700px]:text-lg">SEARCH KEY WORDS/PHRASE</div>
+              <div className="uppercase text-xl max-[700px]:text-lg">
+                SEARCH KEY WORDS/PHRASE
+              </div>
               <div className="text-3xl">
-                <RxCaretDown />
+                {!show ? <RxCaretDown /> : <RxCaretUp />}
               </div>
             </div>
           </div>
@@ -54,7 +56,9 @@ const BibleSection = () => {
               onClick={() => setShow1(!show1)}
             >
               <div className="w-[90%] min-h-[70px] flex items-center justify-between ">
-                <div className="uppercase text-xl text-[#3d3b3b] max-[700px]:text-lg">options</div>
+                <div className="uppercase text-xl text-[#3d3b3b] max-[700px]:text-lg">
+                  options
+                </div>
                 <div className="text-3xl text-[#3d3b3b] font-light">
                   <SlOptionsVertical className="text-[18px] " />
                 </div>
@@ -88,9 +92,11 @@ const BibleSection = () => {
               onClick={() => setShow2(!show2)}
             >
               <div className="w-[90%] flex items-center justify-between cursor-pointer">
-                <div className="uppercase text-xl max-[700px]:text-lg">WHERE TO FIND...</div>
+                <div className="uppercase text-xl max-[700px]:text-lg">
+                  WHERE TO FIND...
+                </div>
                 <div className="text-3xl">
-                  <RxCaretDown />
+                  {!show2 ? <RxCaretDown /> : <RxCaretUp />}
                 </div>
               </div>
             </div>
@@ -103,7 +109,7 @@ const BibleSection = () => {
                   <div className="w-[90%] flex items-center justify-between cursor-pointer">
                     <div className="uppercase text-l">CHRISTMAS STORY</div>
                     <div className="text-3xl">
-                      <RxCaretDown />
+                      {!show3 ? <RxCaretDown /> : <RxCaretUp />}
                     </div>
                   </div>
                 </div>
@@ -121,9 +127,11 @@ const BibleSection = () => {
               onClick={() => setShow4(!show4)}
             >
               <div className="w-[90%] flex items-center justify-between cursor-pointer">
-                <div className="uppercase text-xl max-[700px]:text-lg">highlight</div>
+                <div className="uppercase text-xl max-[700px]:text-lg">
+                  highlight
+                </div>
                 <div className="text-3xl">
-                  <RxCaretDown />
+                  {!show4 ? <RxCaretDown /> : <RxCaretUp />}
                 </div>
               </div>
             </div>
@@ -136,7 +144,7 @@ const BibleSection = () => {
                   <div className="w-[90%] flex items-center justify-between cursor-pointer">
                     <div className="uppercase text-l">john</div>
                     <div className="text-3xl">
-                      <RxCaretDown />
+                      {!show5 ? <RxCaretDown /> : <RxCaretUp />}
                     </div>
                   </div>
                 </div>
@@ -177,9 +185,11 @@ const BibleSection = () => {
               onClick={() => setShow6(!show6)}
             >
               <div className="w-[90%] flex items-center justify-between cursor-pointer">
-                <div className="uppercase text-xl max-[700px]:text-lg">notes</div>
+                <div className="uppercase text-xl max-[700px]:text-lg">
+                  notes
+                </div>
                 <div className="text-3xl">
-                  <RxCaretDown />
+                      {!show6 ? <RxCaretDown /> : <RxCaretUp />}
                 </div>
               </div>
             </div>
@@ -192,7 +202,7 @@ const BibleSection = () => {
                   <div className="w-[90%] flex items-center justify-between cursor-pointer">
                     <div className="uppercase text-l">john</div>
                     <div className="text-3xl">
-                      <RxCaretDown />
+                      {!show7 ? <RxCaretDown /> : <RxCaretUp />}
                     </div>
                   </div>
                 </div>
@@ -282,10 +292,10 @@ const BibleSection = () => {
             <div className="w-[90%] flex justify-between items-center ">
               <div className="flex items-center space-x-1">
                 <PiCaretLeftLight />
-                <p className="uppercase">matthew</p>
+                <p className="uppercase">matthew 5</p>
               </div>
               <div className="flex items-center space-x-1">
-                <p className="uppercase"> matthew</p>
+                <p className="uppercase"> matthew 3</p>
                 <PiCaretRightThin />
               </div>
             </div>
