@@ -26,7 +26,7 @@ const BibleSection = () => {
               className="w-[90%] flex items-center justify-between cursor-pointer"
               onClick={() => setShow(!show)}
             >
-              <div className="uppercase text-xl">SEARCH KEY WORDS/PHRASE</div>
+              <div className="uppercase text-xl max-[700px]:text-lg">SEARCH KEY WORDS/PHRASE</div>
               <div className="text-3xl">
                 <RxCaretDown />
               </div>
@@ -54,7 +54,7 @@ const BibleSection = () => {
               onClick={() => setShow1(!show1)}
             >
               <div className="w-[90%] min-h-[70px] flex items-center justify-between ">
-                <div className="uppercase text-xl text-[#3d3b3b] ">options</div>
+                <div className="uppercase text-xl text-[#3d3b3b] max-[700px]:text-lg">options</div>
                 <div className="text-3xl text-[#3d3b3b] font-light">
                   <SlOptionsVertical className="text-[18px] " />
                 </div>
@@ -88,7 +88,7 @@ const BibleSection = () => {
               onClick={() => setShow2(!show2)}
             >
               <div className="w-[90%] flex items-center justify-between cursor-pointer">
-                <div className="uppercase text-xl">WHERE TO FIND...</div>
+                <div className="uppercase text-xl max-[700px]:text-lg">WHERE TO FIND...</div>
                 <div className="text-3xl">
                   <RxCaretDown />
                 </div>
@@ -121,7 +121,7 @@ const BibleSection = () => {
               onClick={() => setShow4(!show4)}
             >
               <div className="w-[90%] flex items-center justify-between cursor-pointer">
-                <div className="uppercase text-xl">highlight</div>
+                <div className="uppercase text-xl max-[700px]:text-lg">highlight</div>
                 <div className="text-3xl">
                   <RxCaretDown />
                 </div>
@@ -177,7 +177,7 @@ const BibleSection = () => {
               onClick={() => setShow6(!show6)}
             >
               <div className="w-[90%] flex items-center justify-between cursor-pointer">
-                <div className="uppercase text-xl">notes</div>
+                <div className="uppercase text-xl max-[700px]:text-lg">notes</div>
                 <div className="text-3xl">
                   <RxCaretDown />
                 </div>
