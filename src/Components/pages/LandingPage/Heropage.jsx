@@ -3,12 +3,20 @@ import Register from "../SignUp/Register";
 import LOGIN from "../Login/Login";
 
 const Heropage = () => {
+<<<<<<< HEAD
   const [show, setShow] = useState(false);
   const [show1, setShow1] = useState(false);
   return (
     <>
       {show && <Register setShow={setShow} setShow1={setShow1} />}
       {show1 && <LOGIN setShow={setShow} setShow1={setShow1} />}
+=======
+  const [joinnow, setJoinNow] = useState(false)
+
+  return (
+    <>
+      {/* <Register /> */}
+>>>>>>> 90021e0e2c737cb6b4f05986071f1af3f2508910
       <div className="w-full h-[80vh] bg-hero bg-center flex items-center justify-center max-[700px]:h-[50vh] relative">
         <div className="w-[90%] ">
           <div className="flex flex-col items-center space-y-4  w-[30%] max-[700px]:w-full">
@@ -26,10 +34,14 @@ const Heropage = () => {
               <div className="w-[35px] h-[35px] rounded-full bg-black"></div>
               <div className="w-[35px] h-[35px] rounded-full bg-black"></div>
             </div> */}
+<<<<<<< HEAD
             <div
               className="border border-black py-3 px-3 rounded font-semibold text-xl uppercase cursor-pointer"
               onClick={() => setShow(true)}
             >
+=======
+            <div onClick={()=> setJoinNow(true)} className="border border-black py-3 px-3 rounded font-semibold text-xl uppercase cursor-pointer ">
+>>>>>>> 90021e0e2c737cb6b4f05986071f1af3f2508910
               Join Now
             </div>
           </div>

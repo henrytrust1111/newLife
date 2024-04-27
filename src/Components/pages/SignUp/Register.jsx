@@ -10,8 +10,20 @@ const Register = ({setShow,setShow1}) => {
   return (
     <div className="signUpContainer1">
       <div className="signupwrap">
+<<<<<<< HEAD
         <div className="w-full flex justify-end p-2">
           <IoCloseSharp className="text-4xl cursor-pointer" onClick={()=>setShow(false)} />
+=======
+        <div className="closecont"></div>
+      <div className="signuphold">
+        <div className="ios">
+          <div className="ioswrap">
+            <h3>Sign in with</h3>
+            <div className="iosicon">
+              <FaApple />
+            </div>
+          </div>
+>>>>>>> 90021e0e2c737cb6b4f05986071f1af3f2508910
         </div>
         <div className="signuphold">
           <div className="w-full flex justify-between mb-2">
