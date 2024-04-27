@@ -4,7 +4,7 @@ import { FaApple } from "react-icons/fa";
 import { IoMdEye, IoIosEyeOff } from "react-icons/io";
 import { IoCloseSharp } from "react-icons/io5";
 
-const LOGIN = ({setShow1,setShow}) => {
+const Login = ({setShow1,setShow}) => {
   const handleSignUp = ()=>{
     setShow1(false)
     setShow(true)
@@ -63,4 +63,4 @@ const LOGIN = ({setShow1,setShow}) => {
   );
 };
 
-export default LOGIN;
+export default Login;

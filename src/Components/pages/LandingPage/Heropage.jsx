@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Register from "../SignUp/Register";
-import LOGIN from "../Login/Login";
+import Login from "../Login/LoginPage";
 
 const Heropage = () => {
   const [show, setShow] = useState(false);
@@ -8,11 +8,11 @@ const Heropage = () => {
   return (
     <>
       {show && <Register setShow={setShow} setShow1={setShow1} />}
-      {show1 && <LOGIN setShow={setShow} setShow1={setShow1} />}
+      {show1 && <Login setShow={setShow} setShow1={setShow1} />}
       <div className="w-full h-[80vh] bg-hero bg-center flex items-center justify-center max-[700px]:h-[50vh] relative">
         <div className="w-[90%] ">
           <div className="flex flex-col items-center space-y-4  w-[30%] max-[700px]:w-full">
-            <p className="text-center text-5xl font-bold max-[700px]:text-white max-[700px]:text-2xl">
+            <p className=" font-[pattaya] text-center text-5xl font-light max-[700px]:text-white max-[700px]:text-2xl">
               Daily Inspiration
             </p>
             <p className="text-center text-xl max-[700px]:text-white">
