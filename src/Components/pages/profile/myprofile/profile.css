@@ -1,0 +1,175 @@
+.myprofileparent{
+    width: 100%;
+    height: max-content;
+}
+.profilewrap{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+.profilehold{
+    width: 60%;
+    height: max-content;
+    display: flex;
+
+    background-color: white;
+}
+.profileleft{
+    width: 30%;
+    height: max-content;
+    /* background-color: wheat; */
+}
+.profilehead{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.profilepic{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+.profilepic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profilename{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: center; */
+    background-color: white;
+}
+.name{
+    width: max-content;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.member{
+    width: max-content;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: darkblue; */
+}
+.member span{
+    font-size: 20px;
+    font-weight: 400;
+    /* background-color: tan; */
+}
+
+#editon{
+    width: 60%;
+    height: 150px;
+    /* background-color: hotpink; */
+    color: rgba(0, 0, 0, 0.657);
+    border: 1px solid silver;
+}
+.editon:hover{
+    border: 1px solid black;
+    color:  black;
+}
+.profileright{
+    width: 70%;
+    height: max-content;
+    background-color: white;
+}
+.inspiration{
+    width: 100%;
+    height: 100px;
+    /* background-color: firebrick; */
+}
+.inspiration span{
+    font-size: 12px;
+}
+.otherpro{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 10px;
+    /* background-color: gray; */
+}
+.otherprowrap{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: gray; */
+}
+.wrapperpic{
+    width: 32%;
+    height: 200px;
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1713769931183-1537d9a8126b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8");
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: green;
+}
+.givetesty{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    gap: 10px;
+    color: rgba(0, 0, 0, 0.63);
+    /* background-color: palevioletred; */
+}
+.givetesty button{
+    width: 40%;
+    height: 70px;
+    border: 1px solid silver;
+}
+.givetesty button:hover{
+    width: 40%;
+    height: 70px;
+    color: black;
+    border: 1px solid black;
+}
+
+@media screen and (width < 760px) {
+    .profilehold{
+        width: 95%;
+        flex-direction: column;
+    }
+    .profileleft{
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: yellow;
+    }
+    .profileright{
+        width: 100%;
+        /* background-color: teal; */
+    }
+    .otherprowrap{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .wrapperpic{
+        width: 100%;
+    }
+    .givetesty{
+        align-items: center;
+    }
+}

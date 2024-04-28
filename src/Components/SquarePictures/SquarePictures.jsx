@@ -2,6 +2,7 @@ import "./allsquare.css";
 
 const SquarePictures = () => {
   return (
+    <div className="squareparent">
     <div className="squarewrapcont">
       <div className="joinnewlifewrap">
         <div className="squarewrap">
@@ -14,7 +15,7 @@ const SquarePictures = () => {
           <p>
             SQUARE ONE: <span>The Foundation of faith</span>
           </p>
-          {/* <span></span> */}
+          
         </div>
         <div className="squarewrap">
           <div className="square">
@@ -64,6 +65,7 @@ const SquarePictures = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

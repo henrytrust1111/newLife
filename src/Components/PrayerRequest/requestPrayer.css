@@ -1,12 +1,16 @@
+.requestparent{
+  width: 100%;
+  height: max-content;
+}
 .prayerwrap {
   width: 100%;
-  height: 100%;
-  background-color: #a2c2dc;
+  height: 600px;
+  /* background-color: #a2c2dc; */
 }
 .requesthold {
   width: 100%;
   height: 20%;
-  color: white;
+  /* color: white; */
   font-size: 30px;
   display: flex;
   align-items: center;
@@ -79,6 +83,8 @@
     gap: 20px;
   }
   .leftrequest button {
-    height: 60px;
+    height: max-content;
+    width: max-content;
+    padding: 10px;
   }
 }

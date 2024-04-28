@@ -1,0 +1,69 @@
+.scrollparent{
+    width: 100%;
+    height: max-content;
+}
+.scrollwrap{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.cardhold{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.card{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.cardtype{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+.cardtype img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardname{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.joinhold{
+    width: 100%;
+    height: 200px;
+}
+
+@media screen and (width <760px) {
+    .scrollwrap{
+        height: max-content;
+        padding-top: 30px;
+    }
+    .cardhold{
+        flex-direction: column;
+        height: max-content;
+    }
+    .card{
+        width: 100%;
+        height: 300px;
+    }
+}
