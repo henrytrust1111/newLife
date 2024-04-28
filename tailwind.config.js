@@ -6,6 +6,7 @@ export default {
     extend: {
       backgroundImage: {
         hero: "url('https://www.theemon.com/c/charity/LivePreview/assets/img/slide-banner-01.jpg')",
+        hero1: "url('https://www.theemon.com/c/charity/LivePreview/assets/img/breadcrumb-bg.jpg')",
       },
     },
   },

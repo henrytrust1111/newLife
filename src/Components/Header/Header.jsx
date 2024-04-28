@@ -12,10 +12,10 @@ const Header = () => {
           <div className="text-2xl font-bold">NewLife</div>
           <div className="flex space-x-4">
             <div className="flex justify-center border w-[85px] h-[35px] items-center rounded cursor-pointer">
-              Sign
+              Sign-in
             </div>
             <div className="border flex justify-center w-[85px] h-[35px] items-center rounded cursor-pointer ">
-              SignUp
+              Sign-up
             </div>
           </div>
         </div>
@@ -38,9 +38,9 @@ const Header = () => {
             </div>
 
             <div className="w-[50%] flex justify-end items-center space-x-1">
-              <div className="">UserName</div>
+              <div className="max-[700px]:text-white">UserName</div>
               <div className="w-[35px] h-[35px] flex items-center justify-center rounded-full ">
-                <CgProfile className="text-2xl" />
+                <CgProfile className="text-2xl max-[700px]:text-white" />
               </div>
             </div>
           </div>
