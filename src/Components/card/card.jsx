@@ -52,7 +52,6 @@ const ScrollCard = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="joinhold"></div> */}
         </div>
     )
 }

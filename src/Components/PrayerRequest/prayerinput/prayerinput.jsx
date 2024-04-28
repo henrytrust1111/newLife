@@ -4,6 +4,9 @@ const YourPrayer = () => {
     return(
         <div className="prayerparent">
             <div className="prayerwrapper">
+            <div className="pointhero">
+                <h1>WE WOULD LOVE TO PRAY WITH YOU</h1>
+            </div>
                 <div className="prayerpoint">
                     <div className="pray">
                         <p>

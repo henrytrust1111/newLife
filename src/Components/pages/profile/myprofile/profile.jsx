@@ -1,9 +1,14 @@
+import { useNavigate } from 'react-router-dom'
 import './profile.css'
 
 const FullProfile = () => {
+    const navigate = useNavigate()
     return(
         <div className="myprofileparent">
             <div className="profilewrap">
+                <div className="profilehero">
+                    <h1>HELLO! Midnight Illusions</h1>
+                </div>
                 <div className="profilehold">
                     <div className="profileleft">
                         <div className="profilehead">
@@ -23,7 +28,7 @@ const FullProfile = () => {
                                 <span>FAITH:</span>
                                 <p>others</p>
                             </div>
-                            <button id='editon'>EDIT PROFILE</button>
+                            <button id='editon' onClick={()=> navigate("/edit-profile")}>EDIT PROFILE</button>
                         </div>
                     </div>
                     <div className="profileright">
@@ -93,7 +98,7 @@ const FullProfile = () => {
                         </div>
                         <div className="givetesty">
                             <p>MY TESTIMONY</p>
-                            <button>ADD YOUR TESTIMONY</button>
+                            <button onClick={()=> navigate("/edit-profile")}>ADD YOUR TESTIMONY</button>
                         </div>
                     </div>
                 </div>

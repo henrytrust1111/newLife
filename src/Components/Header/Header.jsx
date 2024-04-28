@@ -2,14 +2,16 @@ import React from "react";
 import HeaderMenu from "../container/HeaderMenu";
 import { useState } from "react";
 import { CgProfile } from "react-icons/cg";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [show, setShow] = useState(false);
+  const navigate = useNavigate()
   return (
     <>
       <div className="w-full h-max flex flex-col items-center justify-center bg-[#26211d]">
         <div className="w-[90%] h-[13vh] flex items-center justify-between text-white">
-          <div className="text-2xl font-bold">NewLife</div>
+          <div className="text-2xl font-bold" onClick={()=> navigate("/")}>NewLife</div>
           <div className="flex space-x-4">
             <div className="flex justify-center border w-[85px] h-[35px] items-center rounded cursor-pointer">
               Sign-in
@@ -31,14 +33,14 @@ const Header = () => {
               </div>
               <ul className="w-full flex justify-between items-center text-l font-semibold cursor-pointer text-[#26211D] uppercase max-[700px]:hidden">
                 <li>Explore Faith</li>
-                <li>Read the Bible</li>
-                <li>Find a Church</li>
-                <li>Request a Prayer</li>
+                <li onClick={()=> navigate("/bible")}>Read the Bible</li>
+                <li onClick={()=> navigate("/find")}>Find a Church</li>
+                <li onClick={()=> navigate("/request")}>Request a Prayer</li>
               </ul>
             </div>
 
             <div className="w-[50%] flex justify-end items-center space-x-1">
-              <div className="max-[700px]:text-white">UserName</div>
+              <div onClick={()=> navigate("/profile")} className="max-[700px]:text-white cursor-pointer">UserName</div>
               <div className="w-[35px] h-[35px] flex items-center justify-center rounded-full ">
                 <CgProfile className="text-2xl max-[700px]:text-white" />
               </div>
