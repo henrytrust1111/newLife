@@ -19,7 +19,7 @@ const Heropage = () => {
               O Israel, hope in the LORD; for with the LORD there is unfailing
               love. His redemption overflows.
             </p>
-            <p className="text-center font-light max-[700px]:text-white">
+            <p className="text-center font-light max-[700px]:text-white italic">
               PSALMS 130:7
             </p>
             {/* <div className="flex space-x-1">
@@ -27,7 +27,7 @@ const Heropage = () => {
               <div className="w-[35px] h-[35px] rounded-full bg-black"></div>
             </div> */}
             <div
-              className="border border-black py-3 px-3 rounded font-semibold text-xl uppercase cursor-pointer"
+              className="border border-black py-3 px-3 rounded font-semibold text-xl uppercase cursor-pointer max-[700px]:text-white max-[700px]:border-white max-[700px]:text-lg"
               onClick={() => setShow(true)}
             >
               Join Now
