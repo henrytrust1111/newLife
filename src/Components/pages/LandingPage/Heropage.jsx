@@ -35,11 +35,21 @@ const Heropage = () => {
       setCount(count - 1);
     }
   };
+ console.log("HelloWorld");
+  const signin = localStorage.getItem("SignIn")
+  const signup = localStorage.getItem("SignUp")
+
+  // useEffect(() => {
+  //  if(signin){
+  //   setShow(true)
+  //  }
+  // }, [])
+  
 
   return (
     <>
-      {show && <Register setShow={setShow} setShow1={setShow1} />}
-      {show1 && <Login setShow={setShow} setShow1={setShow1} />}
+      {show || signup ? <Register setShow={setShow} setShow1={setShow1} />: null}
+      {show1 || signin ? <Login setShow={setShow} setShow1={setShow1} />:null}
       <div className="w-full h-[90vh] flex items-center justify-center max-[700px]:h-[50vh] relative">
         <div className="absolute h-full w-full bg-white ">
           <img

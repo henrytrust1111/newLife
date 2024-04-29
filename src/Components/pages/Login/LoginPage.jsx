@@ -9,6 +9,11 @@ const Login = ({setShow1,setShow}) => {
     setShow1(false)
     setShow(true)
   }
+  const handleClose = ()=>{
+    // localStorage.setItem("SignIn", false)
+    localStorage.removeItem("SignIn")
+    setShow1(false)
+  }
   const [showpassword, setShowpassword] = useState(false);
   return (
     <div className="registerContainer">
@@ -17,7 +22,7 @@ const Login = ({setShow1,setShow}) => {
           <div className="w-full flex justify-end p-2">
             <IoCloseSharp
               className="text-4xl cursor-pointer"
-              onClick={() => setShow1(false)}
+              onClick={handleClose}
             />
           </div>
           <div className="w-[90%] flex justify-between mb-2 px-4">

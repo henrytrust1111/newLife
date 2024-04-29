@@ -7,11 +7,17 @@ const Register = ({setShow,setShow1}) => {
     setShow1(true)
     setShow(false)
   }
+  const handleClose = ()=>{
+    // localStorage.setItem("SignIn", false)
+    localStorage.removeItem("SignUp")
+    // localStorage.removeItem("SignIn")
+    setShow(false)
+  }
   return (
     <div className="signUpContainer1">
       <div className="signupwrap">
         <div className="w-full flex justify-end p-2">
-          <IoCloseSharp className="text-4xl cursor-pointer" onClick={()=>setShow(false)} />
+          <IoCloseSharp className="text-4xl cursor-pointer" onClick={handleClose} />
         </div>
         <div className="signuphold">
           <div className="w-full flex justify-between mb-2">
