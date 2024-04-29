@@ -52,7 +52,7 @@ const Register = ({setShow,setShow1}) => {
               />
             </div>
           </div>
-          <div className="namehold">
+          <div className="namehold namehold2">
             <div className="leftname">
               <p>USER NAME</p>
               <input
