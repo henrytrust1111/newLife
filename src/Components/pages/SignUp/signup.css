@@ -293,6 +293,7 @@
   }
   .signupwrap {
     width: 95%;
+    padding-block-end: 70px;
   }
   .signuphold {
     width: 98%;
