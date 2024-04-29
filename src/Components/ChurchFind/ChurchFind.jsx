@@ -4,8 +4,11 @@ const ChurchFind = () => {
     return(
         <div className="churchfindwrap">
             <div className="churchpic">
-                <h1>We'd love to see you this sunday</h1>
-                <i>Join a community of belivers to grow in your faith</i>
+                <img src="./bkg.webp" alt="" />
+                <div>
+                    <h1>We'd love to see you this sunday</h1>
+                    <i>Join a community of belivers to grow in your faith</i>
+                </div>
             </div>
             <div className="explain">
                 <div className="explainhold">
