@@ -32,7 +32,8 @@ const Header = () => {
                 />
               </div>
               <ul className="w-full flex justify-between items-center text-l font-semibold cursor-pointer text-[#26211D] uppercase max-[700px]:hidden">
-                <li>Explore Faith</li>
+                <li onClick={()=> navigate("/")}>Home</li>
+                {/* <li>Explore Faith</li> */}
                 <li onClick={()=> navigate("/bible")}>Read the Bible</li>
                 <li onClick={()=> navigate("/find")}>Find a Church</li>
                 <li onClick={()=> navigate("/request")}>Request a Prayer</li>
